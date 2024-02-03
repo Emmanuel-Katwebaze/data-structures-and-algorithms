@@ -166,3 +166,6 @@ levelOrderTraversal(newBinarySearchTree)
 print(" *** DELETE BINARY SEARCH TREE ***") 
 print(deleteBST(newBinarySearchTree))
 levelOrderTraversal(newBinarySearchTree)
+
+# NOTE: In case the Binary Search Tree is imbalanced, the Time complexities for 
+# insertion, traversing, searching and deletion can reach O(n)
